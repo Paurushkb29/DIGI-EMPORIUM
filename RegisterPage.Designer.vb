@@ -68,7 +68,7 @@ Partial Class RegisterPage
         Me.Label5.BackColor = System.Drawing.Color.NavajoWhite
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.SaddleBrown
-        Me.Label5.Location = New System.Drawing.Point(15, 364)
+        Me.Label5.Location = New System.Drawing.Point(15, 352)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(226, 29)
         Me.Label5.TabIndex = 5
@@ -181,7 +181,7 @@ Partial Class RegisterPage
         'TextBox5
         '
         Me.TextBox5.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox5.Location = New System.Drawing.Point(267, 364)
+        Me.TextBox5.Location = New System.Drawing.Point(267, 352)
         Me.TextBox5.Multiline = True
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(223, 29)
