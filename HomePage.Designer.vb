@@ -40,7 +40,7 @@ Partial Class HomePage
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Elephant", 19.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label1.Location = New System.Drawing.Point(439, 31)
+        Me.Label1.Location = New System.Drawing.Point(390, 31)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(370, 42)
         Me.Label1.TabIndex = 0
@@ -51,7 +51,7 @@ Partial Class HomePage
         Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button1.AutoSize = True
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(1062, 31)
+        Me.Button1.Location = New System.Drawing.Point(965, 31)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(84, 64)
         Me.Button1.TabIndex = 1
@@ -64,7 +64,7 @@ Partial Class HomePage
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Harlow Solid Italic", 16.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(373, 73)
+        Me.Label2.Location = New System.Drawing.Point(324, 73)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(500, 35)
         Me.Label2.TabIndex = 2
@@ -75,7 +75,7 @@ Partial Class HomePage
         Me.Button2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button2.AutoSize = True
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(874, 31)
+        Me.Button2.Location = New System.Drawing.Point(777, 31)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(181, 64)
         Me.Button2.TabIndex = 4
@@ -103,7 +103,7 @@ Partial Class HomePage
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(9, 2, 0, 2)
-        Me.MenuStrip1.Size = New System.Drawing.Size(1146, 31)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1049, 31)
         Me.MenuStrip1.TabIndex = 3
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -113,7 +113,7 @@ Partial Class HomePage
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("HP Simplified Hans", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(340, 590)
+        Me.Label3.Location = New System.Drawing.Point(291, 479)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(516, 19)
         Me.Label3.TabIndex = 5
@@ -125,7 +125,7 @@ Partial Class HomePage
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.DIGI_EMPORIUM.My.Resources.Resources.home_page
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1146, 618)
+        Me.ClientSize = New System.Drawing.Size(1049, 507)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label2)
