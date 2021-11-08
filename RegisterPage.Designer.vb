@@ -43,7 +43,7 @@ Partial Class RegisterPage
         '
         Me.Label1.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.NavajoWhite
+        Me.Label1.BackColor = System.Drawing.Color.SeaShell
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.SaddleBrown
         Me.Label1.Location = New System.Drawing.Point(159, 54)
@@ -55,6 +55,7 @@ Partial Class RegisterPage
         'TextBox1
         '
         Me.TextBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TextBox1.BackColor = System.Drawing.SystemColors.Info
         Me.TextBox1.Location = New System.Drawing.Point(267, 54)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
@@ -65,7 +66,7 @@ Partial Class RegisterPage
         '
         Me.Label5.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label5.AutoSize = True
-        Me.Label5.BackColor = System.Drawing.Color.NavajoWhite
+        Me.Label5.BackColor = System.Drawing.Color.SeaShell
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.SaddleBrown
         Me.Label5.Location = New System.Drawing.Point(15, 352)
@@ -78,7 +79,7 @@ Partial Class RegisterPage
         '
         Me.Label4.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label4.AutoSize = True
-        Me.Label4.BackColor = System.Drawing.Color.NavajoWhite
+        Me.Label4.BackColor = System.Drawing.Color.SeaShell
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.SaddleBrown
         Me.Label4.Location = New System.Drawing.Point(113, 282)
@@ -91,7 +92,7 @@ Partial Class RegisterPage
         '
         Me.Label3.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.Color.NavajoWhite
+        Me.Label3.BackColor = System.Drawing.Color.SeaShell
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.SaddleBrown
         Me.Label3.Location = New System.Drawing.Point(153, 202)
@@ -104,7 +105,7 @@ Partial Class RegisterPage
         '
         Me.Label2.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label2.AutoSize = True
-        Me.Label2.BackColor = System.Drawing.Color.NavajoWhite
+        Me.Label2.BackColor = System.Drawing.Color.SeaShell
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.SaddleBrown
         Me.Label2.Location = New System.Drawing.Point(97, 125)
@@ -130,10 +131,10 @@ Partial Class RegisterPage
         '
         Me.CheckBox1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Font = New System.Drawing.Font("Microsoft New Tai Lue", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox1.Font = New System.Drawing.Font("Microsoft New Tai Lue", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox1.Location = New System.Drawing.Point(164, 418)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(218, 24)
+        Me.CheckBox1.Size = New System.Drawing.Size(231, 24)
         Me.CheckBox1.TabIndex = 3
         Me.CheckBox1.Text = "I Agree To The Terms of Use"
         Me.CheckBox1.UseVisualStyleBackColor = True
@@ -154,6 +155,7 @@ Partial Class RegisterPage
         'TextBox2
         '
         Me.TextBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TextBox2.BackColor = System.Drawing.SystemColors.Info
         Me.TextBox2.Location = New System.Drawing.Point(267, 125)
         Me.TextBox2.Multiline = True
         Me.TextBox2.Name = "TextBox2"
@@ -163,6 +165,7 @@ Partial Class RegisterPage
         'TextBox3
         '
         Me.TextBox3.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TextBox3.BackColor = System.Drawing.SystemColors.Info
         Me.TextBox3.Location = New System.Drawing.Point(267, 202)
         Me.TextBox3.Multiline = True
         Me.TextBox3.Name = "TextBox3"
@@ -172,6 +175,7 @@ Partial Class RegisterPage
         'TextBox4
         '
         Me.TextBox4.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TextBox4.BackColor = System.Drawing.SystemColors.Info
         Me.TextBox4.Location = New System.Drawing.Point(267, 282)
         Me.TextBox4.Multiline = True
         Me.TextBox4.Name = "TextBox4"
@@ -181,6 +185,7 @@ Partial Class RegisterPage
         'TextBox5
         '
         Me.TextBox5.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TextBox5.BackColor = System.Drawing.SystemColors.Info
         Me.TextBox5.Location = New System.Drawing.Point(267, 352)
         Me.TextBox5.Multiline = True
         Me.TextBox5.Name = "TextBox5"
@@ -189,9 +194,11 @@ Partial Class RegisterPage
         '
         'GroupBox1
         '
-        Me.GroupBox1.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.GroupBox1.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.GroupBox1.AutoSize = True
-        Me.GroupBox1.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox1.BackColor = System.Drawing.Color.GhostWhite
+        Me.GroupBox1.BackgroundImage = Global.DIGI_EMPORIUM.My.Resources.Resources.cgi_brochure_background_banner
+        Me.GroupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Controls.Add(Me.Button2)
         Me.GroupBox1.Controls.Add(Me.TextBox5)
@@ -206,18 +213,18 @@ Partial Class RegisterPage
         Me.GroupBox1.Controls.Add(Me.Label5)
         Me.GroupBox1.Controls.Add(Me.TextBox1)
         Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox1.Location = New System.Drawing.Point(224, 12)
+        Me.GroupBox1.Location = New System.Drawing.Point(116, 12)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(550, 567)
         Me.GroupBox1.TabIndex = 11
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Registeration Details"
+        Me.GroupBox1.Text = "DIGITAL REGISTER"
         '
         'RegisterPage
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.DIGI_EMPORIUM.My.Resources.Resources.REGISTER
+        Me.BackgroundImage = Global.DIGI_EMPORIUM.My.Resources.Resources.reg
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(980, 601)
         Me.Controls.Add(Me.GroupBox1)

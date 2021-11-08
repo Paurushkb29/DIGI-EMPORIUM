@@ -144,5 +144,17 @@
   <ItemGroup>
     <None Include="Resources\REGISTER.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cgi-brochure-background-banner.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\signin2.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
